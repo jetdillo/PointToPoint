@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PointToPoint</string>
+    <string name="app_linkmargin">PointToPoint:Link Margin Calculations</string>
+    <string name="app_fzrcalc">PointToPoint:Fresnel Zone Calc</string>
+    <string name="app_comms">PointToPoint:Console</string>
+    <string name="app_map">PointToPoint:Map</string>
+    <string name="app_calc">PointToPoint:Calculations</string>
+    <string name="app_settings">PointToPoint:Settings</string>
+    <string name="badvals">Error:Value must be greater than 0</string>
+</resources>

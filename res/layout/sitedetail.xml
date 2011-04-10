@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout android:id="@+id/TableLayout01" android:layout_width="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="160dip">
+<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/sitedetail_ll" android:orientation="horizontal"><TextView android:layout_height="wrap_content" android:id="@+id/sitename" android:text="Sitename:" android:layout_width="75dip"></TextView><EditText android:id="@+id/sitename_val" android:text="Site001" android:layout_width="fill_parent" android:textSize="14sp" android:layout_height="40dip"></EditText>
+</LinearLayout>
+
+
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/PosLabel_TV" android:text="Latitude         Longitude          Altitude          "></TextView><TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/SiteLat" android:text="37.1234         "></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/SiteLon" android:text="-122.5678          "></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/SiteAlt" android:text="0020"></TextView>
+</TableRow>
+
+<TableRow android:id="@+id/TableRow02" android:layout_width="wrap_content" android:layout_height="wrap_content"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/SiteOrientLabel" android:text="X Angle"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/SiteYAngle" android:text="Y Angle"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/SiteZAngle" android:text="Z Angle"></TextView>
+</TableRow>
+<TableRow android:id="@+id/TableRow03" android:layout_width="wrap_content" android:layout_height="wrap_content"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/SiteXAngle_TV" android:text="000.0000"></TextView>
+<TextView android:id="@+id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="000.0000"></TextView>
+<TextView android:id="@+id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="000.0000"></TextView>
+</TableRow>
+<TableRow android:id="@+id/TableRow04" android:layout_width="wrap_content" android:layout_height="wrap_content">
+<Button android:id="@+id/Button01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingTop="5dip" android:layout_gravity="bottom|center_horizontal" android:gravity="center" android:text="Dismiss"></Button>
+</TableRow>
+
+
+
+</TableLayout>

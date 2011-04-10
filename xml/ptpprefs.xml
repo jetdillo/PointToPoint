@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>  
+  <PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:key="PTPPrefScreen_1">
+    <CheckBoxPreference
+            android:id="@+id/gpsLaunchState"
+            android:key="gpsLaunchState"
+            android:title="GPS is on at launch"/>
+        
+    <CheckBoxPreference
+            android:id="@+id/compassState"
+    		android:key="compassState"
+    		android:title="Show Compass" />  
+    <CheckBoxPreference
+            android:id="@+id/tiltState"
+    		android:key="tiltState"
+    		android:title="Enable Tiltmeter/Accelerometer" />
+    			
+    <PreferenceCategory android:title="Z-Data Source">			     
+    <PreferenceScreen
+            android:key="ZDataPrefs"
+            android:title="Select Altitude Data Source">
+    <ListPreference
+           android:title="Local Sources"
+           android:summary="Select a Z-data provider on the local device"
+           android:key="localZ"
+           android:defaultValue="1"
+           android:entries="@array/zlocal"
+           android:entryValues="@array/zlocal_values" />   
+    <EditTextPreference  android:dialogTitle="Use online provider"
+                             android:dialogMessage="Enter URI or address:port of Z-data server"
+                             android:key="pref_dialog"
+                             android:title="Use online provider"
+                             android:summary="Enter Server Name/Address"
+                             android:defaultValue="http://www.nasa.gov"/>      
+    </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>  
+  <PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:key="PTPPrefScreen_1">   
+  <PreferenceCategory android:title="Position">          
+    <CheckBoxPreference
+            android:id="@+id/gpsLaunchState"
+            android:key="gpsLaunchState"
+            android:title="GPS is on at launch"/>
+        
+    <CheckBoxPreference
+            android:id="@+id/compassState"
+    		android:key="compassState"
+    		android:title="Enable Compass" />  
+    <CheckBoxPreference
+            android:id="@+id/tiltState"
+    		android:key="tiltState"
+    		android:title="Enable Tiltmeter" />
+    <CheckBoxPreference
+    		android:id="@+id/kmlLogState"
+    		android:key="kmlLogState"
+    		android:title="Log GPS Data as KML" />
+ </PreferenceCategory>
+    			
+    <PreferenceCategory android:title="Altitude Data Source">		     
+    <ListPreference
+           android:title="Choose Z-Data Source"
+           android:id="@+id/zsource_db"
+           android:summary="Select source/service to provide altitude data"
+           android:key="zSource"
+           android:defaultValue="Server"
+           android:entries="@array/z_array"
+           android:entryValues="@array/z_values" />   
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="Messaging">
+    <PreferenceScreen
+             android:key="msgHist"
+             android:title="Message History">
+         <CheckBoxPreference
+    	     	 android:id="@+id/msgHistory"
+    		     android:key="msgHistory"
+    		     android:title="Persist between sessions"/>	 
+         <CheckBoxPreference
+                 android:id="@+id/msgSplit"
+                 android:key="msgSplit"
+                 android:title="Split GPS from text messages"/>
+   </PreferenceScreen>
+   	  <EditTextPreference android:dialogTitle="Enter message tag"
+   	  					  android:dialogMessage="Tag/Filter messages with:"
+   	  					  android:key="ptpMsgTag"
+   	  					  android:title="Set Message Tag"
+   	  					  android:summary="Enter a tag to prepend/filter SMSes by" 	
+   	  					  android:defaultValue="(-)" />	 
+        
+    </PreferenceCategory>               		           
+</PreferenceScreen>

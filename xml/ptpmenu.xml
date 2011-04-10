@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/ptpmenu_comm"
+          android:title="Comm" />
+  <item android:id="@+id/ptpmenu_map"
+          android:title="Map" />
+  <item android:id="@+id/ptpmenu_calc"
+  		  android:title="Calc" />
+  <item android:id="@+id/ptpmenu_settings"
+  		  android:title="Settings" />
+  <item android:id="@+id/ptpmenu_about"
+  		  android:title="About" />    
+</menu>
