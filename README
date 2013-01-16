@@ -1,0 +1,23 @@
+PointToPoint is an app for assisting in doing site surveys for long-distance(where "long" in this instance means, "longer than down the hall") WiFi links. With modern phones have various sensors and devices like GPS, tilt sensors, accelerometers, etc in them now, it should be possible to use a pair of phones
+for doing a site survey & alignment tests rather than having to lug along a laptop, handheld GPS, extra batteries, etc. 
+
+Basic Use Model/Concept:
+It should be pretty obvious what you do with it. 
+The main Comms screen is for exchanging messages & sync-ing GPS positions with the remote end. 
+GPS positions are stored in the app for use with the Fresnel Zone calculator. There is also a Link Margin calculator and a few other features. 
+
+
+I worked on PointToPoint over winter 2010 into early 2011 but have not had time to keep it up. 
+I used it in some field trials for 12-15 Km links between Muggia and Miramare, Italy, across the Gulf of Trieste and it worked okay. 
+
+It should work on Android devices running Android 2.x and higher. It ran fine the last time I tested it, but I don't remember exactly what state I left it in since it's a WIP. 
+If you fork it/download it, please let me know what you do with it. 
+If you do something really cool with it, please let me know that too. 
+
+PointToPoint is released under the GNU General Public License Version 2. 
+You can read a copy of this here: 
+http://www.gnu.org/licenses/gpl-2.0.html
+
+Thanks!
+-----Steve
+Jan. 2013
